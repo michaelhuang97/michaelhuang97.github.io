@@ -1,10 +1,8 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Project</title>
 		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Project</title>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
@@ -18,26 +16,31 @@
 		<header>
 			<img src="Images\coverpic.jpg">
 			<img id="propic" src="Images\propic.jpg">
-			<h1>Michael Shih-Hsuan Huang</h1>
+			<h1>Michael Shih-Hsuan Huang</h1>    
 		</header>
 
 		<nav class="navbar">
             <div class="container-fluid">    
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcontent">
-                    	<span class="icon-bar"></span>
-                    	<span class="icon-bar"></span>
-                    	<span class="icon-bar"></span>
+                    
+                    <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" 
+                            data-target="#navbarcontent">
+                        
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                     </button>
                 </div>
                 
-                <div class="navbar-collapse collapse">
+                <div id="navbarcontent" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
                			<li><a href="contact.html">Contact</a></li>
                 		<li><a href="portfolio.html"><span class="glyphicon glyphicon-pencil"></span></a></li>
                 		<li class="dropdown">
                         	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Websites<span class="caret"></span></a>
+                        
                         	<ul class="dropdown-menu">
                             	<li><a href="https://nelson-quotes.000webhostapp.com/">Nelson Quotes</a></li>
                             	<li class="divider"></li>
@@ -56,23 +59,21 @@
         </nav>
 
 		<footer>
-			<div id="footer_main">
-				<h1><strong>Background</strong></h1>
-				<p>I was born in Taipei, Taiwan on August 9, 1997. I have an older brother named Alex (23) and a younger brother named Daniel (18). When I was 4 years old, my father brought my older brother and I overseas to Maryland, and my mother and younger brother followed after 6 months. I graduated from Richard Montgomery High School as a magnet/International Baccalaureate student, and enrolled in the University of Maryland, College Park in Fall 2016 as a Computer Engineering major. However, after struggling for a year with math and physics courses, I decided to drop out into Computer Science.</p>
-				<p>My personal hobbies include reading, sketching, and playing badminton. I have a female Japanese Spitz named Yuki who I've had since I was 11 years old.</p>
-
-				<h2><strong>Academics</strong></h2>
-				<p>I am currently a junior Computer Science major enrolled in:</p>
-				<ol>
-					<li>CMSC389N: Introduction to PHP and JavaScript</li>
-					<li>CMSC389K: Full-Stack Web Development with node.js</li>
-					<li>CMSC351: Algorithms</li>
-				</ol>
-				<p>I hope to find a career in web development and design, or graphic design given my art background/interest.</p>
-
-				<h1><strong>Entrepreneurship</strong></h1>
-				<p>I am secretly an aspiring entrepreneur and UMD valedictorian. Click the image below to visit my blog (NOT CLICKBAIT)</p>
-				<a href="https://huangmichael97.wordpress.com"><img class="drawing" src="Images\icecreamtruck.jpg"></a>
+			<div id="footer_contact">
+				<h1><strong>Contact Information</strong></h1>
+				<p>If you have any questions please feel free to contact me through any one of the listed methods. Additionally, my LinkedIn and Facebook profiles are available at the top right corner of the page.</p>
+				<table id="table_contact">
+					<thead>
+						<tr>
+							<th>Contact Method</th>
+							<th>Contact</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr><td>Email</td><td>michaelhuang97@gmail.com</td></tr>
+						<tr><td>Phone</td><td>1-301-318-5377</td></tr>
+					</tbody>
+				</table>
 			</div>
 		</footer>
 	</body>

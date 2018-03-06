@@ -156,8 +156,8 @@ header h1 {
 }
 
 .gif {
-	text-align: center;
-	height: 40em;
-	padding-left: 225px;
-	padding-bottom: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
 }

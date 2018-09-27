@@ -160,7 +160,13 @@ header h1 {
 	margin-bottom: 1em;
 	padding-left: 33px;
 }
-
+.painting {
+	display: block;
+	height: 30em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
 .gif {
 	display: block;
 	margin-left: auto;

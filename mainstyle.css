@@ -137,7 +137,7 @@ header h1 {
 	border: 1px solid gray;
 }
 /* --------------------------PORTFOLIO-------------------------- */
-#footer_portfolio, #header_portfolio p {
+#footer_portfolio p {
 	margin: 0px;
 	background-color: white;
 	padding: 0px 40px 30px;
@@ -145,7 +145,7 @@ header h1 {
 /*#footer_portfolio p:hover {
 	color: red;
 }*/
-#footer_portfolio, #header_portfolio h1,h2 {
+#footer_portfolio h1,h2 {
 	padding: 0px 40px 0px;
 }
 .drawing {
